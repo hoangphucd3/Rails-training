@@ -86,7 +86,7 @@ class Person < ApplicationRecord
     validates :terms_of_service, acceptance: true
 end
 ```
-## Validate associated records
+### Validate associated records
 
 ```ruby
 class Library < ActiveRecord::Base
